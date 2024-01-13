@@ -1,4 +1,4 @@
-
+document.addEventListener("DOMContentLoaded", function () {
 let numberOfWords = 3;
 let wordArray = [];
 
