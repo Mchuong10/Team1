@@ -16,7 +16,6 @@ for (let i = 0; i < numberOfWords; i++) {
     let li = document.createElement("li");
     li.id = "li" + i;
     li.innerHTML = wordArray[i];
-    document.getElementById("yourListContainer").appendChild(li);
 }
 
         const firstSection = document.querySelector('#firstSection');
