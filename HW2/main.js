@@ -25,8 +25,15 @@ document.addEventListener("DOMContentLoaded", function (event) {
     }
     }
 
-    let button = document.getElementById("transformButton");
+const transformButton = document.querySelector('#transformButton');
+const firstSection = document.querySelector('#firstSection');
 
-    button.classList.remove("hidden");
+transformButton.addEventListener('click', () => {
+  if (firstSection.style.display === 'block') {
+    firstSection.style.display = 'none';
+  } else {
+    firstSection.style.display = 'block';
+  }
+});
     
 });
