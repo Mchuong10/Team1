@@ -12,8 +12,7 @@ function transformWords() {
         }
     }
 
-    const ul01 = document.getElementById("ul01");
-    ul01.innerHTML = ""; // Clear previous content
+  
 
     for (let i = 0; i < numberOfWords; i++) {
         const li = document.createElement("li");
