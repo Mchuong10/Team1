@@ -19,18 +19,19 @@ for (let i = 0; i < numberOfWords; i++) {
     document.getElementById("yourListContainer").appendChild(li);
 }
 
-const divContainer = document.querySelector('#firstSection');
-let isClicked = true;
+        const firstSection = document.querySelector('#firstSection');
+        const secondSection = document.getElementById("secondSection");
+        let isClicked = true;
 
-let transformWords = function () {
-    if (isClicked) {
-        divContainer.style.display = 'block';
-        isClicked = false;
-    } else {
-        divContainer.style.display = 'none';
-        isClicked = true;
-    }
-};
-
-// Attach the click event listener to the button or element that triggers the transformation
-document.getElementById("transform").addEventListener("click", transformWords);
+        let transformWords = function () {
+            
+            if (isClicked) {
+                firstSection.style.display = 'none'; // Changed to 'none'
+                secondSection.style.display = 'block';
+                isClicked = false;
+            } else {
+                firstSection.style.display = 'block';
+                secondSection.style.display = 'none'; // Changed to 'none'
+                isClicked = true;
+            }
+        };
