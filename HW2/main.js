@@ -36,3 +36,4 @@ for (let i = 0; i < numberOfWords; i++) {
             }
         };
  document.getElementById("transform").addEventListener("click", transformWords);
+)};
