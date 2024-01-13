@@ -3,16 +3,7 @@ let numberOfWords = 3;
 
 let wordArray = [];
 
-const divContainer = document.querySelector('#firstSection');
-let isClicked = true;
-let transformWords = function () {
-    if (isClicked) {
-        divContainer.style.display = 'block';
-    }else{
-        divContainer.style.display = 'none';
-        isClicked = true;
-    }
-}
+
 
     for (let i = 0; i < numberOfWords; i++) {
     
@@ -32,6 +23,16 @@ let transformWords = function () {
         li.innerHTML = wordArray[i];
     }
     }
+const divContainer = document.querySelector('#firstSection');
+let isClicked = true;
+let transformWords = function () {
+    if (isClicked) {
+        divContainer.style.display = 'block';
+    }else{
+        divContainer.style.display = 'none';
+        isClicked = true;
+    }
+}
 
 
 });
