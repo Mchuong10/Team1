@@ -35,3 +35,4 @@ for (let i = 0; i < numberOfWords; i++) {
                 isClicked = true;
             }
         };
+ document.getElementById("transform").addEventListener("click", transformWords);
