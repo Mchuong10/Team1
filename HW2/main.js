@@ -37,4 +37,3 @@ document.addEventListener("DOMContentLoaded", function (event) {
         currentSection = "firstSection";
       }
     });
-});
