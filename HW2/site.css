@@ -20,8 +20,6 @@ h2 {
   background-color: #0000f380;
   margin-bottom: 0%;
   margin-top: 0%;
-  display:none;
-  
 }
 #secondSection {
   font-family: "Lucida Console", monospace;
@@ -32,9 +30,11 @@ h2 {
   background-color: #0000f380;
   margin-top: 0%;
   margin-bottom: 0%;
-  display:none;
 }
 
+.hidden {
+  display: none;
+}
 
 h2 {
   background-color: #0000f380;
@@ -59,10 +59,9 @@ button {
   cursor: pointer;
   margin-top: 0%;
   margin-bottom: 0%;
-   
 }
 
 button:hover {
   background-color: #f0975c;
-  border:none;
+  border: none;
 }
